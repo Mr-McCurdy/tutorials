@@ -92,7 +92,6 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
         'question_name': 'Sample Multiple Choice Question',
         'question_type': 'multiple_choice_question',
         'question_text': '''[Insert Question Text Here]''',
-        'difficulty': '[Insert Difficulty Level Here]',  # e.g., 'Easy', 'Medium', 'Hard'
         'points_possible': 1,
         'answers': [
             {'text': 'Option A', 'weight': 0},
