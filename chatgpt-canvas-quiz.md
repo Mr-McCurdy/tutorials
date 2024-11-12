@@ -74,7 +74,7 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
 
 1. **Open ChatGPT:**
 
-   Navigate to <a href="https://www.chatgpt.com" target="_blank" rel="noopener noreferrer">ChatGPT</a> and ensure you're logged in.
+   Navigate to [OpenAI](https://www.openai.com){:target="_blank" rel="noopener noreferrer"} and ensure you're logged in.
 
 2. **Copy and Paste the Following Prompt into ChatGPT:**
 
