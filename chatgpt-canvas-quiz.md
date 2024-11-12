@@ -82,11 +82,30 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
    I am creating a multiple-choice quiz for my Canvas course. Please generate a `quiz_questions` python object with 5 questions. Each question should have the following structure:
 
    quiz_questions = [
-        {
-            "question": "Question text here",
-            "options": ["Option A", "Option B", "Option C", "Option D"],
-            "answer": "Correct Option Letter"
-        }
+    {
+      'question_name': 'Sample Multiple Choice Question',
+      'question_type': 'multiple_choice_question',
+      'question_text': '''What is the capital of France?''',
+      'points_possible': 1,
+      'answers': [
+        {'text': 'Berlin', 'weight': 0},
+        {'text': 'London', 'weight': 0},
+        {'text': 'Paris', 'weight': 100},  # Correct answer
+        {'text': 'Madrid', 'weight': 0}
+      ]
+    },
+    {
+      'question_name': 'Sample Multiple Choice Question',
+      'question_type': 'multiple_choice_question',
+      'question_text': '''What is the capital of France?''',
+      'points_possible': 1,
+      'answers': [
+        {'text': 'Berlin', 'weight': 0},
+        {'text': 'London', 'weight': 0},
+        {'text': 'Paris', 'weight': 100},  # Correct answer
+        {'text': 'Madrid', 'weight': 0}
+      ]
+    }
    ]
    ```
    <!-- Centered and resized image using HTML tags -->
