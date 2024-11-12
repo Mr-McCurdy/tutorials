@@ -29,7 +29,7 @@ Before we begin, ensure you have the following:
 
 1. **Access the Google Colab Notebook:**
 
-   Open your web browser and navigate to the Google Colab notebook template provided [here](https://colab.research.google.com/). Alternatively, you can use your own Colab notebook.
+   Open your web browser and navigate to the Google Colab notebook template provided [here](https://colab.research.google.com/drive/19esEHrqmQWgpICTG4ICwVVszmTXDx76S?usp=sharing). Alternatively, you can use your own Colab notebook.
 
 2. **Copy the Notebook (If Using a Template):**
 
