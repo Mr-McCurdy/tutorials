@@ -78,36 +78,34 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
 
 2. **Copy and Paste the Following Prompt into ChatGPT:**
 
-   ```plaintext
-   I am creating a multiple-choice quiz for my Canvas course. Please generate a `quiz_questions` python object with 5 questions. Each question should have the following structure:
+   ````plaintext
+   I am creating a multiple-choice quiz for my Canvas course. Please generate a `quiz_questions` Python object based on the following parameters:
 
+   - **Topic:** [Insert Topic Here]
+   - **Levels of Difficulty:** [Insert Difficulty Levels Here, e.g., "Easy", "Medium", "Hard"]
+   - **Number of Questions:** [Insert Number of Questions Here]
+
+   Each question should have the following structure:
+
+   ```python
    quiz_questions = [
     {
-      'question_name': 'Sample Multiple Choice Question',
-      'question_type': 'multiple_choice_question',
-      'question_text': '''What is the capital of France?''',
-      'points_possible': 1,
-      'answers': [
-        {'text': 'Berlin', 'weight': 0},
-        {'text': 'London', 'weight': 0},
-        {'text': 'Paris', 'weight': 100},  # Correct answer
-        {'text': 'Madrid', 'weight': 0}
-      ]
+        'question_name': 'Sample Multiple Choice Question',
+        'question_type': 'multiple_choice_question',
+        'question_text': '''[Insert Question Text Here]''',
+        'difficulty': '[Insert Difficulty Level Here]',  # e.g., 'Easy', 'Medium', 'Hard'
+        'points_possible': 1,
+        'answers': [
+            {'text': 'Option A', 'weight': 0},
+            {'text': 'Option B', 'weight': 0},
+            {'text': 'Option C', 'weight': 100},  # Correct answer
+            {'text': 'Option D', 'weight': 0}
+        ]
     },
-    {
-      'question_name': 'Sample Multiple Choice Question',
-      'question_type': 'multiple_choice_question',
-      'question_text': '''What is the capital of France?''',
-      'points_possible': 1,
-      'answers': [
-        {'text': 'Berlin', 'weight': 0},
-        {'text': 'London', 'weight': 0},
-        {'text': 'Paris', 'weight': 100},  # Correct answer
-        {'text': 'Madrid', 'weight': 0}
-      ]
-    }
+    # Repeat for the specified number of questions
    ]
    ```
+   ````
    <!-- Centered and resized image using HTML tags -->
    <p align="center">
      <img src="assets/test.gif" alt="test" width="600">
