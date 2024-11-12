@@ -81,7 +81,7 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
    ````plaintext
    I am creating a multiple-choice quiz for my Canvas course. Please generate a `quiz_questions` Python object based on the following parameters:
 
-   - **Topic:** [Insert Topic Here]
+   - **Topic:** [Insert Topic Here or Insert 'Refer to Uploaded File']
    - **Levels of Difficulty:** [Insert Difficulty Levels Here, e.g., "Easy", "Medium", "Hard"]
    - **Number of Questions:** [Insert Number of Questions Here]
 
