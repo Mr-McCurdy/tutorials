@@ -78,16 +78,15 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
 
 2. **Copy and Paste the Following Prompt into ChatGPT:**
 
-   ````markdown
+   ```markdown
    I am creating a multiple-choice quiz for my Canvas course. Please generate a `quiz_questions` Python object based on the following parameters:
 
-   - **Topic:** [Insert Topic Here or Insert 'Refer to Uploaded File']
-   - **Levels of Difficulty:** [Insert Difficulty Levels Here, e.g., "Easy", "Medium", "Hard"]
-   - **Number of Questions:** [Insert Number of Questions Here]
+   - Topic: [Insert Topic Here or Insert 'Refer to Uploaded File']
+   - Levels of Difficulty: [Insert Difficulty Levels Here, e.g., "Easy", "Medium", "Hard"]
+   - Number of Questions: [Insert Number of Questions Here]
 
    Each question should have the following structure:
 
-   ```python
    quiz_questions = [
     {
         'question_name': 'Sample Multiple Choice Question',
@@ -105,7 +104,6 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
     # Repeat for the specified number of questions
    ]
    ```
-   ````
    <!-- Centered and resized image using HTML tags -->
    <p align="center">
      <img src="assets/test.gif" alt="test" width="600">
