@@ -133,4 +133,7 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
 
 3. **Find Your Quiz in Canvas**
 
-   Locate your quiz in Canvas and check the results.
+   - Log in to your Canvas account.
+   - Navigate to `Courses` > `'YOUR_COURSE'` > `Quizzes`.
+   
+   You should now see your newly generated quiz.
