@@ -8,7 +8,7 @@ Welcome to this step-by-step tutorial on how to create quizzes on Canvas using a
 2. [Setting Up the Google Colab Notebook](#setting-up-the-google-colab-notebook)
 3. [Configuring Your Canvas Credentials](#configuring-your-canvas-credentials)
 4. [Generating Quiz Questions with ChatGPT](#generating-quiz-questions-with-chatgpt)
-5. [Uploading the Quiz to Canvas](#uploading-the-quiz-to-canvas)
+5. [Uploading Your Quiz using Google Colab](#uploading-your-quiz-using-google-colab)
 6. [Conclusion](#conclusion)
 
 ---
@@ -121,7 +121,7 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
 
    Copy over your newly generated quiz_questions object back into your Google Colab template.
 
-## Upload Your Quiz using Google Colab
+## Uploading Your Quiz using Google Colab
 
 1. **Double-Check User Inputs**
 
