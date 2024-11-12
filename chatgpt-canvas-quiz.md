@@ -91,7 +91,7 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
    ```
    <!-- Centered and resized image using HTML tags -->
    <p align="center">
-     <img src="../assets/test.gif" alt="test" width="600">
+     <img src="assets/test.gif" alt="test" width="600">
    </p>
 
 3. **Execute the Prompt:**
