@@ -81,6 +81,7 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
    ```markdown
    I am creating a multiple-choice quiz for my Canvas course. Please generate a `quiz_questions` Python object based on the following parameters:
 
+   Parameters
    - Topic: [Insert Topic Here or Insert 'Refer to Uploaded File']
    - Levels of Difficulty: [Insert Difficulty Levels Here, e.g., "Easy", "Medium", "Hard"]
    - Number of Questions: [Insert Number of Questions Here]
@@ -108,10 +109,28 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
      <img src="assets/test.gif" alt="test" width="600">
    </p>
 
-3. **Execute the Prompt:**
+3. **Edit Prompt Parameters:**
 
-    Press "Enter" to send the prompt to ChatGPT. Wait for the AI to generate the quiz_questions object.
+   Before sending your prompt to ChatGPT, you can customize your parameters to tailor the generated quiz questions to better fit your course material and desired difficulty level. Here’s how to effectively edit and optimize your prompt:
 
-4. **Copy and Paste the Generated `quiz_questions` Object into Colab Template**
+4. **Generate `quiz_questions` Object:**
 
-    Once ChatGPT provides the python `quiz_questions` object, copy and paste in to replace the `quiz_questions` object in the Colab template.
+   Enter your prompt into ChatGPT and watch the magic happen!
+
+5. **Copy and Paste the Generated `quiz_questions` Object into Colab Template**
+
+   Copy over your newly generated quiz_questions object back into your Google Colab template.
+
+## Upload Your Quiz using Google Colab
+
+1. **Double-Check User Inputs**
+
+   Make sure all user inputs are present and correct.
+
+2. **Run Application**
+
+   Run the application by clicking on `Runtime` > `Run all`.
+
+3. **Find Your Quiz in Canvas**
+
+   Locate your quiz in Canvas and check the results.
