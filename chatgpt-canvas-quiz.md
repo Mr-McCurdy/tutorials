@@ -78,10 +78,9 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
 
 2. **Copy and Paste the Following Prompt into ChatGPT:**
 
-    ````plaintext
-    I am creating a multiple-choice quiz for my Canvas course. Please generate a `quiz_questions` JSON object with 5 questions. Each question should have the following structure:
+    ```plaintext
+    I am creating a multiple-choice quiz for my Canvas course. Please generate a `quiz_questions` python object with 5 questions. Each question should have the following structure:
 
-     ```python
     quiz_questions = [
         {
             "question": "Question text here",
@@ -90,5 +89,3 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
         }
     ]
     ```
-    
-    ````
