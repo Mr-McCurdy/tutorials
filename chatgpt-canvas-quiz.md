@@ -63,8 +63,8 @@ To interact with Canvas’s API, you need to provide your Canvas API key and Cou
    In the Colab notebook, locate the section where you need to input your Canvas API key and Course ID. Replace the placeholder text with your actual credentials.
 
    ```python
-   # Canvas API Configuration
-   CANVAS_API_KEY = "YOUR_CANVAS_API_KEY"
+   #@title # Define Key Values (User Input Required)
+   CANVAS_API_KEY = "YOUR_CANVAS_API_KEY" 
    COURSE_ID = "YOUR_COURSE_ID"
    ```
 
