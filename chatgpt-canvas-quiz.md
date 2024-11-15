@@ -104,14 +104,15 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
     # Repeat for the specified number of questions
    ]
    ```
-   <!-- Centered and resized image using HTML tags -->
+<!-- 
    <p align="center">
      <img src="assets/test.gif" alt="test" width="600">
    </p>
+-->
 
 3. **Edit Prompt Parameters:**
 
-   Before sending your prompt to ChatGPT, you can customize your parameters to tailor the generated quiz questions to better fit your course material and desired difficulty level. Here’s how to effectively edit and optimize your prompt:
+   Before sending your prompt to ChatGPT, you can customize your parameters to tailor the generated quiz questions to better fit your course material and desired difficulty level. 
 
 4. **Generate `quiz_questions` Object:**
 
