@@ -76,7 +76,7 @@ To create a `quiz_questions` object, you'll interact with ChatGPT using a specif
 
    Navigate to <a href="https://www.chatgpt.com" target="_blank">ChatGPT</a> and ensure you're logged in.
 
-2. **Copy and Paste the Following Prompt into ChatGPT:**
+2. **Copy and Paste the Following Prompt Template into ChatGPT:**
 
    ```markdown
    I am creating a multiple-choice quiz for my Canvas course. Please generate a `quiz_questions` Python object based on the following parameters:
